@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: rgb(222, 167, 64);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.wrapper{
+    background-color: orange;
+}
+.top h1{
+    color: black;
+}
+.top span{
+    color: white;
+    padding: 10px;
+}
+.ankor ul li{
+    list-style: none;
+}
+.ankor ul li a{
+    text-decoration: none;
+    padding:30px;
+    color: white;
+    border-left: 2px solid white;
+}
+.ankor ul{
+    display: flex;
+}
+#image{
+    background-image: url("image/wallpapersden.com_the-neon-shallows-building_5120x2880.jpg");
+    height: 300px;
+    background-size: cover;
+    position: relative;
+}
+.para{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+}
+.para p{
+    border: 1px solid;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.mid{
+    background-color: orange;
+}
+.bottom{
+    display: flex;
+    margin-top: 100px;
+    padding: 20px;
+}
+.bottom ul a{
+    text-decoration: none;
+}
+.hi{
+    width: 260px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.hi h3 {
+    padding: 15px;
+    background-color: white;
+    margin: 8px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.pa{
+    margin-top: 38px;
+    margin-right: 50px;
+    border-left: 2px solid gray;
+}
+.pa p{
+    padding: 14px;
+    margin-right: 300px;
+}
+
+
